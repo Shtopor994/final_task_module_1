@@ -85,7 +85,7 @@
                     <mxGeometry x="397" y="1320" width="100" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="34" value="Здесь формируется новый массив строк" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="90" y="930" width="110" height="70" as="geometry"/>
+                    <mxGeometry x="85" y="1020" width="110" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="36" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="2" target="39" edge="1">
                     <mxGeometry relative="1" as="geometry">
