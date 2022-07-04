@@ -18,12 +18,12 @@ int lengthLimit = 3;
 int numbersItems = CheckArray(arrayOfStrings, lengthLimit);
 string[] newArrayOfStrings = new string[numbersItems];
 
-FillNewArray(arrayOfStrings, newArrayOfStrings, lengthLimit);
+FillArray(arrayOfStrings, newArrayOfStrings, lengthLimit);
 
 Console.WriteLine($"{PrintArray(newArrayOfStrings)}");
 
 
-void FillNewArray(string[] pastArray, string[] newArray, int lengthLimit)
+void FillArray(string[] pastArray, string[] newArray, int lengthLimit)
 {
     int temp = 0;
     for (int i = 0; i < pastArray.Length; i++)
