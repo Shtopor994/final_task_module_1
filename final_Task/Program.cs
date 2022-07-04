@@ -23,14 +23,14 @@ FillNewArray(arrayOfStrings, newArrayOfStrings, lengthLimit);
 Console.WriteLine($"{PrintArray(newArrayOfStrings)}");
 
 
-void FillNewArray(string[] Array, string[] newArray, int lengthLimit)
+void FillNewArray(string[] pastArray, string[] newArray, int lengthLimit)
 {
     int temp = 0;
-    for (int i = 0; i < Array.Length; i++)
+    for (int i = 0; i < pastArray.Length; i++)
     {
-        if (Array[i].Length <= lengthLimit)
+        if (pastArray[i].Length <= lengthLimit)
         {
-            newArray[temp] = Array[i];
+            newArray[temp] = pastArray[i];
             temp++;
         }
     }
